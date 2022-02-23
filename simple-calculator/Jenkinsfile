@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'notifications',
-                    url: 'https://github.com/devops-test/DO400-apps'
+                    url: 'https://github.com/devops-test01/DO400-apps'
             }
         }
         stage('Test') {
